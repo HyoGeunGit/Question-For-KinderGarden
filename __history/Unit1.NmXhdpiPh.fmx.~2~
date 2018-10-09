@@ -1,0 +1,155 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    inherited Label1: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited Rectangle2: TRectangle
+    inherited Label2: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited Rectangle3: TRectangle
+    inherited Label3: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited Rectangle4: TRectangle
+    inherited Label4: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited RoundRect1: TRoundRect
+    inherited Label5: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited RoundRect2: TRoundRect
+    inherited Label6: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited R: TRectangle
+    inherited L: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited RoundRect3: TRoundRect
+    inherited Label7: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited RoundRect4: TRoundRect
+    inherited Label8: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited Panel1: TPanel
+    Position.X = -8.000000000000000000
+    Position.Y = -8.000000000000000000
+    inherited Rectangle6: TRectangle
+      inherited Label10: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle7: TRectangle
+      inherited Label11: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle8: TRectangle
+      inherited Label12: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle9: TRectangle
+      inherited Label13: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RoundRect5: TRoundRect
+      inherited Label14: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RoundRect7: TRoundRect
+      inherited Label16: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RoundRect8: TRoundRect
+      inherited Label17: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Label15: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited RoundRect13: TRoundRect
+      inherited Label29: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  inherited Rectangle5: TRectangle
+    inherited Label9: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited Label18: TLabel
+    Position.X = 8.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Label19: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Panel2: TPanel
+    inherited Rectangle10: TRectangle
+      inherited Label20: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle11: TRectangle
+      inherited Label21: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle12: TRectangle
+      inherited Label22: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle13: TRectangle
+      inherited Label23: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RoundRect9: TRoundRect
+      inherited Label24: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RoundRect10: TRoundRect
+      inherited Label25: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RoundRect11: TRoundRect
+      inherited Label26: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RoundRect12: TRoundRect
+      inherited Label27: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Label28: TLabel
+      Position.Y = 16.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end

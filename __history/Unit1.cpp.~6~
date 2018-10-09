@@ -1,0 +1,189 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.fmx"
+#pragma resource ("*.SmXhdpiPh.fmx", _PLAT_ANDROID)
+#pragma resource ("*.NmXhdpiPh.fmx", _PLAT_ANDROID)
+
+TForm1 *Form1;
+TLabel *Label[10];
+TRectangle *sha[100];
+TLine * LIN[100];
+int g=0,i=0,a[4];
+String Dap;
+String Check;
+
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::comehere(String a, int b, int c)
+{
+	sha[i]=new TRectangle(this);
+	sha[i]->Parent=this;
+	sha[i]->Position->X=320;
+	sha[i]->Position->Y=72+g;
+	g=g+60;
+	sha[i]->Height=50;
+	sha[i]->Width=c;
+	sha[i]->Stroke->Color=NULL;
+	sha[i]->Fill->Color=b;
+	i++;
+
+	Label[i]=new TLabel(this);
+	Label[i]->Parent=this;
+	Label[i]->Text=a;
+	Label[i]->Position->X=320;
+	Label[i]->Position->Y=12+g;
+	g=g+10;
+	Label[i]->Height=50;
+	Label[i]->Width=c;
+	//Label[i]->Stroke->Color=NULL;
+	//Label[i]->Fill->Color=b;
+	//Label[i]->Align=L->Align;
+	Label[i]->StyledSettings=L->StyledSettings >> TStyledSetting::ssFamily >> TStyledSetting::ssSize >> TStyledSetting::ssFontColor >> TStyledSetting::ssStyle;
+	Label[i]->TextSettings->HorzAlign=L->TextSettings->HorzAlign;
+	Label[i]->TextSettings->VertAlign=L->TextSettings->VertAlign;
+	Label[i]->Font->Size=15;
+	Label[i]->FontColor=L->FontColor;
+	//Line1->Height+=70;
+
+	//[i]=new TLine(this);
+	//LIN[i]->Parent=this;
+	//LIN[i]->Position->X=368;
+	//LIN[i]->Position->Y=42+g;
+	//g=g+10;
+	//LIN[i]->Height=41;
+	//LIN[i]->Width=96;
+	//LIN[i]->Stroke->Color=NULL;
+	//LIN[i]->Fill->Color=b;
+	//i++;
+	if (i==2) {
+		Line1->Visible=true;
+	}
+	if (i==3) {
+		Line2->Visible=true;
+	}
+	 if (i==4) {
+		Line3->Visible=true;
+		Line4->Visible=true;
+		RoundRect3->Visible=true;
+	}
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Rectangle1Click(TObject *Sender)
+{
+	comehere(Label1->Text, Rectangle1->Fill->Color,Rectangle1->Width);
+	Dap+="1";
+	Rectangle1->Visible=false;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Rectangle2Click(TObject *Sender)
+{
+	comehere(Label2->Text, Rectangle2->Fill->Color,Rectangle2->Width);
+	Dap+="2";
+	Rectangle2->Visible=false;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Rectangle3Click(TObject *Sender)
+{
+	comehere(Label3->Text, Rectangle3->Fill->Color,Rectangle3->Width);
+	Dap+="3";
+	Rectangle3->Visible=false;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Rectangle4Click(TObject *Sender)
+{
+	comehere(Label4->Text, Rectangle4->Fill->Color,Rectangle4->Width);
+	Dap+="4";
+	Rectangle4->Visible=false;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::RoundRect1Click(TObject *Sender)
+{
+	if (Dap=="1234") {
+	ShowMessage("Succed!!!!!!!!");
+	RoundRect4->Visible=true;
+	}
+	else
+	{
+	ShowMessage("failed......");
+	}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::RoundRect4Click(TObject *Sender)
+{
+	Panel1->Visible=true;
+	Panel1->BringToFront();
+	g=0;
+	RoundRect4->Visible=false;
+    Label19->BringToFront();
+	Label19->Visible=true;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Rectangle5Click(TObject *Sender)
+{
+	comehere(Label9->Text, Rectangle5->Fill->Color,Rectangle5->Width);
+	Check+="1";
+	Rectangle5->Visible=false;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Rectangle7Click(TObject *Sender)
+{
+	comehere(Label11->Text, Rectangle7->Fill->Color,Rectangle7->Width);
+	Check+="2";
+	Rectangle7->Visible=false;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Rectangle6Click(TObject *Sender)
+{
+	comehere(Label10->Text, Rectangle6->Fill->Color,Rectangle6->Width);
+	Check+="3";
+	Rectangle6->Visible=false;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Rectangle9Click(TObject *Sender)
+{
+	comehere(Label13->Text, Rectangle9->Fill->Color,Rectangle9->Width);
+	Check+="4";
+	Rectangle9->Visible=false;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Rectangle8Click(TObject *Sender)
+{
+	comehere(Label12->Text, Rectangle8->Fill->Color,Rectangle8->Width);
+	Check+="5";
+	Rectangle8->Visible=false;
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::RoundRect5Click(TObject *Sender)
+{
+	if (Check=="2354"||Check=="3254") {
+	ShowMessage("Succed!!!!!!!!");
+	}
+	else
+	{
+	ShowMessage("failed......");
+	}
+}
+//---------------------------------------------------------------------------
+

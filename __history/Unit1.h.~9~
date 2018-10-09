@@ -1,0 +1,159 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+#include <FMX.Controls.Presentation.hpp>
+#include <FMX.Objects.hpp>
+#include <FMX.StdCtrls.hpp>
+#include <FMX.Types.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TRectangle *Rectangle1;
+	TRectangle *Rectangle2;
+	TRectangle *Rectangle3;
+	TRectangle *Rectangle4;
+	TLabel *Label1;
+	TLabel *Label3;
+	TLabel *Label4;
+	TLabel *Label2;
+	TRoundRect *RoundRect1;
+	TRoundRect *RoundRect2;
+	TLabel *Label5;
+	TLabel *Label6;
+	TRectangle *R;
+	TLabel *L;
+	TLine *Line1;
+	TLine *Line2;
+	TLine *Line3;
+	TLine *Line4;
+	TRoundRect *RoundRect3;
+	TLabel *Label7;
+	TRoundRect *RoundRect4;
+	TLabel *Label8;
+	TPanel *Panel1;
+	TRectangle *Rectangle5;
+	TLabel *Label9;
+	TRectangle *Rectangle6;
+	TLabel *Label10;
+	TRectangle *Rectangle7;
+	TLabel *Label11;
+	TRectangle *Rectangle8;
+	TLabel *Label12;
+	TRectangle *Rectangle9;
+	TLabel *Label13;
+	TRoundRect *RoundRect5;
+	TLabel *Label14;
+	TRoundRect *RoundRect6;
+	TLabel *Label15;
+	TRoundRect *RoundRect7;
+	TLabel *Label16;
+	TRoundRect *RoundRect8;
+	TLabel *Label17;
+	TLabel *Label18;
+	TLabel *Label19;
+	TPanel *Panel2;
+	TRectangle *Rectangle10;
+	TLabel *Label20;
+	TRectangle *Rectangle11;
+	TLabel *Label21;
+	TRectangle *Rectangle12;
+	TLabel *Label22;
+	TRectangle *Rectangle13;
+	TLabel *Label23;
+	TRoundRect *RoundRect9;
+	TLabel *Label24;
+	TRoundRect *RoundRect10;
+	TLabel *Label25;
+	TRoundRect *RoundRect11;
+	TLabel *Label26;
+	TRoundRect *RoundRect12;
+	TLabel *Label27;
+	TLabel *Label28;
+	TRoundRect *RoundRect13;
+	TLabel *Label29;
+	TPanel *Panel3;
+	TRectangle *Rectangle14;
+	TLabel *Label30;
+	TRectangle *Rectangle15;
+	TLabel *Label31;
+	TRectangle *Rectangle16;
+	TLabel *Label32;
+	TRectangle *Rectangle17;
+	TLabel *Label33;
+	TRoundRect *RoundRect14;
+	TLabel *Label34;
+	TRoundRect *RoundRect15;
+	TLabel *Label35;
+	TRoundRect *OSK;
+	TLabel *Label36;
+	TRoundRect *RoundRect18;
+	TLabel *Label38;
+	TPanel *Level4;
+	TRectangle *Rectangle18;
+	TLabel *Label37;
+	TRectangle *Rectangle19;
+	TLabel *Label39;
+	TRectangle *Rectangle20;
+	TLabel *Label40;
+	TRectangle *Rectangle21;
+	TLabel *Label41;
+	TRoundRect *RoundRect19;
+	TLabel *Label42;
+	TRoundRect *RoundRect20;
+	TLabel *Label43;
+	TRoundRect *RoundRect21;
+	TRoundRect *RoundRect22;
+	TLabel *Label44;
+	TRoundRect *RoundRect23;
+	TLabel *Label45;
+	TLabel *Label46;
+
+	void __fastcall Rectangle1Click(TObject *Sender);
+	void __fastcall Rectangle2Click(TObject *Sender);
+	void __fastcall Rectangle3Click(TObject *Sender);
+	void __fastcall Rectangle4Click(TObject *Sender);
+	void __fastcall RoundRect1Click(TObject *Sender);
+	void __fastcall RoundRect4Click(TObject *Sender);
+	void __fastcall Rectangle5Click(TObject *Sender);
+	void __fastcall Rectangle7Click(TObject *Sender);
+	void __fastcall Rectangle6Click(TObject *Sender);
+	void __fastcall Rectangle9Click(TObject *Sender);
+	void __fastcall Rectangle8Click(TObject *Sender);
+	void __fastcall RoundRect5Click(TObject *Sender);
+	void __fastcall RoundRect8Click(TObject *Sender);
+	void __fastcall Rectangle11Click(TObject *Sender);
+	void __fastcall Rectangle10Click(TObject *Sender);
+	void __fastcall Rectangle13Click(TObject *Sender);
+	void __fastcall Rectangle12Click(TObject *Sender);
+	void __fastcall RoundRect9Click(TObject *Sender);
+	void __fastcall RoundRect2Click(TObject *Sender);
+	void __fastcall RoundRect13Click(TObject *Sender);
+	void __fastcall RoundRect10Click(TObject *Sender);
+	void __fastcall Rectangle14Click(TObject *Sender);
+	void __fastcall Rectangle15Click(TObject *Sender);
+	void __fastcall Rectangle16Click(TObject *Sender);
+	void __fastcall Rectangle17Click(TObject *Sender);
+	void __fastcall RoundRect14Click(TObject *Sender);
+	void __fastcall RoundRect18Click(TObject *Sender);
+	void __fastcall Rectangle18Click(TObject *Sender);
+	void __fastcall Rectangle19Click(TObject *Sender);
+	void __fastcall Rectangle20Click(TObject *Sender);
+	void __fastcall Rectangle21Click(TObject *Sender);
+	void __fastcall RoundRect22Click(TObject *Sender);
+	void __fastcall RoundRect23Click(TObject *Sender);
+	void __fastcall OSKClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+	void __fastcall comehere(String a, int b, int c);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif

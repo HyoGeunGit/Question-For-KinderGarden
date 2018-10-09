@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.546,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.518,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.853,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.510,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.778,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.244,C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\2017\동적생성 숙제\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.883,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.030,C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\2017\동적생성 숙제\Project1.cbproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.650,C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\2017\동적생성 숙제\Unit1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.488,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.903,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.075,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.511,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.757,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.277,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.005,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.650,C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\2017\동적생성 숙제\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.650,C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\2017\동적생성 숙제\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.682,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.545,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.385,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.962,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.614,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.428,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.816,=C:\Users\송현아\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="4c2154a3"/>
+	</ActiveMobileDevice>
+</BorlandProject>
